@@ -13,12 +13,12 @@ python bert_mlm_train.python
 ```
 The dependencies of ``NLQF`` are:
 ```
-transformers
-nltk
-numpy
-pytorch
-datasets
-tensorflow
+transformers 4.9
+nltk 3.4.5
+numpy 1.19.5
+pytorch 1.7.1
+datasets 1.3
+tensorflow 2.5
 ```
 ### Make attacks
 After train the models mentioned above, we can run the following codes to generate adversarial examples
